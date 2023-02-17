@@ -97,6 +97,7 @@ header .mast {
     display: flex;
     flex-direction: column;
     color: white;
+    opacity: 0.9;
 }
 
 header .mast h1 {
@@ -104,15 +105,17 @@ header .mast h1 {
 }
 
 header .mast nav {
-    
+    justify-content: center;
 }
 
 header .mast nav a {
-
+    justify-content: center;
+    color: white;
 }
 
 header .mast .icons {
-    
+    display: flex;
+    justify-content: center;
 }
 
 header .mast .icons i {
