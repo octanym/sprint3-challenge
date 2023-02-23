@@ -96,7 +96,7 @@ header {
 header .mast {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(225, 239, 230);
     width: 100%;
     height: 28%;
     background-color: rgba(0, 4, 17, 0.8);
@@ -119,7 +119,7 @@ header .mast nav {
 }
 
 header .mast nav a {
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 header .mast .icons {
@@ -154,7 +154,7 @@ header .mast .icons i {
 }
 
 .gallery h2 {
-    color: white;
+    color: rgb(225, 239, 230);
     padding: 2% 0% 1% 0%;
 }
 
@@ -187,7 +187,7 @@ header .mast .icons i {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 4, 17, .8);
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 .about h2 {
@@ -212,7 +212,7 @@ header .mast .icons i {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 4, 17, .8);
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 .contact h2 {
@@ -247,7 +247,7 @@ header .mast .icons i {
 }
 
 .contacts a {
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 /* footer section */
@@ -257,7 +257,7 @@ footer {
     font-size: 3rem;
     display: flex;
     background-color: rgb(0, 4, 17);
-    color: white;
+    color: rgb(225, 239, 230);
 }
 
 footer form {

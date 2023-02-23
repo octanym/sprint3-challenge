@@ -154,29 +154,46 @@ header .mast .icons i {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
 }
 
 .menu .menu-title {
     text-align: center;
+    font-size: 4rem;
+    padding: 5% 0% 2% 0%;
 }
 
-.menu .category .category-container {
+.menu .menu-container .menu-section .menu-section-title {
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+}
+
+.menu .menu-container .menu-section .menu-item {
+    font-size: 2.5rem;
+}
+
+.menu .menu-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 
-.menu .category {
-    width: 35%;
-    border: 1px solid red;
+.menu .menu-section {
+    width: 32%;
+    /* padding: 1% 1% 3% 1%; */
+    margin: 2% 2% 2% 2%;
+    /* border: 1px solid red; */
 }
 
-.menu .category .category-item {
+.menu .menu-section .menu-item {
     display: flex;
     justify-content: space-between;
 }
 
-.menu .category p {
-    padding-bottom: 2%;
+.menu .menu-section p {
+    width: 100%;
+    padding-bottom: 7%;
 }
 
 /* footer section */
