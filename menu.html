@@ -6,7 +6,7 @@
     <meta charset="utf-8">
 
     <title>Sprint Challenge - Menu</title>
-
+    <link rel="stylesheet" href="css/menu.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -14,103 +14,140 @@
 <body>
     <div>
         <!-- header -->
-        <header>
-            BLOOMTECH BAR AND GRILL
+		<header>
+			<div class="mast">
+				<h1 class="mast-item">BLOOMTECH BAR AND GRILL</h1>
 
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </header>
+				<!-- nav -->
+				<nav class="mast-item">
+					<a href="menu.html">Menu</a>
+					<a href="#">Reservations</a>
+					<a href="#">Special Offers</a>
+					<a href="#">Contact</a>
+				</nav>
+
+				<div class="icons mast-item">
+					<i class="fa-brands fa-square-facebook fa-3x"></i>
+					<i class="fa-brands fa-square-twitter fa-3x"></i>
+					<i class="fa-brands fa-square-instagram fa-3x"></i>
+				</div>
+			</div>
+		</header>
 
         <!-- spacer -->
         <div class="spacer"></div>
 
         <!-- menu -->
         <article class="menu">
-            Food & Drink
+            <h2>Food & Drink</h2>
 
-                Drinks
-                    Soda
-                    $2
-                    Coke products
+                <section class="category">
+                    <h2>Drinks</h2>
 
-                    Coffee
-                    $2
-                    Cream and sugar available upon request
+                    <div class="category-item">
+                        <h2>Soda</h2>
+                        <h2>$2</h2>
+                    </div>
+                    <p>Coke products</p>
+                    
+                    <div class="category-item">
+                        <h2>Coffee</h2>
+                        <h2>$2</h2>
+                    </div>
+                    <p>Cream and sugar available upon request</p>
+                    
+                    <div class="category-item">
+                        <h2>Beer</h2>
+                        <h2>$5</h2>
+                    </div>
+                    <p>Delicious and refreshing</p>
+                    
+                    <div class="category-item">
+                        <h2>Wine</h2>
+                        <h2>$5</h2>
+                    </div>
+                    <p>Light and fruity</p>
+                    
+                    <div class="category-item">
+                        <h2>Cocktail</h2>
+                        <h2>$10</h2>
+                    </div>
+                    <p>Ask about our specials</p>
+                </section>
 
-                    Beer
-                    $5
-                    Delicious and refreshing
+                <section class="category">
+                    <h2>Appetizers</h2>
 
-                    Wine
-                    $5
-                    Light and fruity
-
-                    Cocktail
-                    $10
-                    Ask about our specials
-
-                Appetizers
-                    Fried Pickles
-                    $6
-                    Golden and crispy with tang!
+                    <div class="category-item">
+                        <h2>Fried Pickles</h2>
+                        <h2>$6</h2>
+                    </div>
+                    <p>Golden and crispy with tang!</p>
                     (V)
                     
-                    Buffalo Wings
-                    $10
-                    5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks
+                    <h2>Buffalo Wings</h2>
+                    <h2>$10</h2>
+                    <p>5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks</p>
                     (GF)
+                    
+                    <h2>Poutine</h2>
+                    <h2>$5</h2>
+                    <p>Homemade fries topped with everything but the kitchen sink</p>
+                </section>
 
-                    Poutine
-                    $5
-                    Homemade fries topped with everything but the kitchen sink
+                <section class="category">
+                    <h2>Soup and Salad</h2>
 
-                Soup and Salad
-                    House Salad
-                    $8
-                    Spinach and arugala with all the good veggies; add chicken for $6
+                    <h2>House Salad</h2>
+                    <h2>$8</h2>
+                    <p>Spinach and arugala with all the good veggies; add chicken for $6</p>
                     (GF, V)
                     
-                    French Onion Soup
-                    $4
-                    Served with a thick topping of cheese and delicious bread
+                    <h2>French Onion Soup</h2>
+                    <h2>$4</h2>
+                    <p>Served with a thick topping of cheese and delicious bread</p>
                     
-                    Cheddar Broccoli Soup
-                    $5
-                    Creamy and filling
+                    <h2>Cheddar Broccoli Soup</h2>
+                    <h2>$5</h2>
+                    <p>Creamy and filling</p>
                     (GF)
-                    
-                Entrees
-                    Ribeye Steak
-                    $32
-                    Served with mashed potatoes and roasted asparagus
+                </section>
+                
+                <section class="category">
+                    <h2>Entrees</h2>
 
-                    Big Boy Burger
-                    $14
-                    Beef or black bean burger on homemade bun served with fries
+                    <h2>Ribeye Steak</h2>
+                    <h2>$32</h2>
+                    <p>Served with mashed potatoes and roasted asparagus</p>
+                    
+                    <h2>Big Boy Burger</h2>
+                    <h2>$14</h2>
+                    <p>Beef or black bean burger on homemade bun served with fries</p>
                     Black Bean Burger: (V)
                     
-                    Pork Shortrib
-                    $18
-                    Melt off the bone finger food
+                    <h2>Pork Shortrib</h2>
+                    <h2>$18</h2>
+                    <p>Melt off the bone finger food</p>
+                    (GF)
+                </section>
+                
+                <section class="category">
+                    <h2>Desserts</h2>
+
+                    <h2>Flourless Chocolate Cake</h2>
+                    <h2>$7</h2>
+                    <p>Gooey and chocolatey heaven</p>
                     (GF)
                     
-                Desserts
-                    Flourless Chocolate Cake
-                    $7
-                    Gooey and chocolatey heaven
-                    (GF)
+                    <h2>Cookies and Ice Cream</h2>
+                    <h2>$6</h2>
+                    <p>Choose 2 cookies and 1 scoop of ice cream from an assortment</p>
                     
-                    Cookies and Ice Cream
-                    $6
-                    Choose 2 cookies and 1 scoop of ice cream from an assortment
-                    
-                    Creme Brulee
-                    $8
-                    Crispy scorched top containing a perfect, smooth custard
+                    <h2>Creme Brulee</h2>
+                    <h2>$8</h2>
+                    <p>Crispy scorched top containing a perfect, smooth custard</p>
                     (GF)
+                </section>
         </article>
 
         <!-- spacer -->

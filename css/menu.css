@@ -54,6 +54,7 @@ table {
 html {
     max-width: 1920px;
     min-width: 428px;
+    width: 100%;
     font-size: 62.5%;
 }
 
@@ -67,23 +68,19 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 }
 
 h1 {
-    font-size: 7.5rem;
-}
-
-h2 {
-    font-size: 6rem;
-}
-
-h3 {
     font-size: 5rem;
 }
 
-h4 {
+h2 {
     font-size: 4rem;
 }
 
-p, a {
+h3 {
     font-size: 3rem;
+}
+
+p, a {
+    font-size: 2rem;
 }
 
 /* header section */
@@ -94,6 +91,46 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+header .mast {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 28%;
+    background-color: rgba(0, 4, 17, 0.8);
+}
+
+header .mast .mast-item {
+    margin: 0 auto;
+    align-content: center;
+}
+
+header .mast h1 {
+    padding: 1% 0% 1% 0%;
+}
+
+header .mast nav {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    padding-bottom: 1%;
+}
+
+header .mast nav a {
+    color: white;
+}
+
+header .mast .icons {
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+header .mast .icons i {
+    width: 40px;
 }
 
 /* spacer */
@@ -118,6 +155,19 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.menu .category {
+    width: 35%;
+    border: 1px solid red;
+}
+
+.menu .category .category-item {
+    display: flex
+}
+
+.menu p {
+
 }
 
 /* footer section */
