@@ -180,10 +180,8 @@ header .mast .icons i {
 }
 
 .menu .menu-section {
-    width: 32%;
-    /* padding: 1% 1% 3% 1%; */
+    width: 30%;
     margin: 2% 2% 2% 2%;
-    /* border: 1px solid red; */
 }
 
 .menu .menu-section .menu-item {
