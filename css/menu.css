@@ -150,11 +150,19 @@ header .mast .icons i {
 .menu {
     width: 100%;
     height: auto;
-    background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background: linear-gradient(rgba(0, 4, 17, 0.8), rgba(0, 4, 17, 0.8)), url('../img/staff-bartender.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.menu .menu-title {
+    text-align: center;
+}
+
+.menu .category .category-container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .menu .category {
@@ -163,11 +171,12 @@ header .mast .icons i {
 }
 
 .menu .category .category-item {
-    display: flex
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu p {
-
+.menu .category p {
+    padding-bottom: 2%;
 }
 
 /* footer section */
