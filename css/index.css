@@ -98,13 +98,11 @@ header .mast {
     flex-direction: column;
     color: rgb(225, 239, 230);
     width: 100%;
-    height: 28%;
     background-color: rgba(0, 4, 17, 0.8);
 }
 
 header .mast .mast-item {
     margin: 0 auto;
-    align-content: center;
 }
 
 header .mast h1 {
@@ -114,7 +112,7 @@ header .mast h1 {
 header .mast nav {
     display: flex;
     justify-content: space-around;
-    width: 85%;
+    width: 90%;
     padding-bottom: 1%;
 }
 
@@ -124,13 +122,14 @@ header .mast nav a {
 
 header .mast .icons {
     display: flex;
-    width: 17%;
     justify-content: space-between;
-    padding-bottom: 1%;
+    width: 20%;
+    padding: 1% 0% 1% 0%;
 }
 
 header .mast .icons i {
     width: 40px;
+    margin: 0 auto;
 }
 
 /* spacers */
