@@ -120,6 +120,10 @@ header .mast nav a {
     color: rgb(225, 239, 230);
 }
 
+header .mast .mobile-icons {
+    display: none;
+}
+
 header .mast .icons {
     display: flex;
     justify-content: space-between;
@@ -248,10 +252,9 @@ footer .right-footer nav a {
 
 footer .right-footer p {
     justify-content: flex-end;
-    text-align-last: right;
     font-size: 1.4rem;
     padding-top: 5%;
-    padding-right:12%;
+    padding-left: 43%;
 }
 
 /* mobile media query */
