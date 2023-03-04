@@ -282,7 +282,7 @@ footer form #email-input {
     width: 300px;
 }
 
-footer form #sign-up {
+footer form button {
     font-size: 2rem;
     width: 100px;
 }
@@ -446,7 +446,7 @@ footer .right-footer p {
         width: 400px;
     }
     
-    footer form #sign-up {
+    footer form button {
         width: 400px;        
     }
 

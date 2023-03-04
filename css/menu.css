@@ -186,6 +186,7 @@ header .mast .icons i {
 .menu .menu-container .menu-section .menu-item {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
     font-size: 2.5rem;
 }
 
@@ -223,7 +224,7 @@ footer form #email-input {
     color: rgb(225, 239, 230);
 }
 
-footer form #sign-up {
+footer form button {
     font-size: 2rem;
     width: 100px;
 }
@@ -335,11 +336,13 @@ footer .right-footer p {
         border: none;
     }
 
-    .menu .menu-container .menu-section .menu-item h4 {
-        margin: 0 auto;
+    .menu .menu-container .menu-section .menu-item {
+        /* margin: 0 auto; */
+        /* justify-content: space-between; */
+        flex-flow: row wrap;
     }
     
-    .menu .menu-section p {
+    .menu .menu-container .menu-section .menu-item p {
         text-align: center;
         font-size: 2.75rem;
         margin: 0 auto;
@@ -369,7 +372,7 @@ footer .right-footer p {
         width: 400px;
     }
     
-    footer form #sign-up {
+    footer form button {
         width: 400px;        
     }
 
