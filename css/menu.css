@@ -138,10 +138,6 @@ header .mast nav .links a {
     text-align: center;
 }
 
-header .mast .mobile-icons {
-    display: none;
-}
-
 header .mast .icons {
     display: flex;
     justify-content: space-between;
@@ -294,18 +290,9 @@ footer .right-footer p {
         flex-direction: column;
     }
 
-    header .mast .icons i {
-        display: none;
-    }
-
-    header .mast .mobile-icons {
-        display: flex;
-        justify-content: space-between;
+    header .mast .icons {
         width: 25%;
-        padding: 1% 0% 1% 0%;
-        margin: 0 auto;
     }
-
 
     /* menu */
     .menu {
